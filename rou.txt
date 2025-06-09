@@ -1,0 +1,58 @@
+ <section class="section section-no-background section-no-border m-0">
+    <div class="container">
+        <div class="row">
+            <div class="col my-3">
+
+                <div class="text-center">
+                    <div class="divider divider-primary divider-small divider-small-center my-3">
+                        <hr class="mt-2">
+                    </div>
+                    <h3 class="mb-0 pb-0">Case Studies</h3>
+                </div>
+
+                <div class="row pt-2 pb-3">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <article class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="0">
+                            <div class="card border-0 border-radius-0 box-shadow-1">
+                                <div class="card-body p-3 z-index-1">
+                                    <a href="demo-hotel-book.html">
+                                        <img class="card-img-top border-radius-0 mb-2" src="img/houseofrep/home/blogs/Frame 1618871211.jpg" alt="Card Image">
+                                    </a>
+                                    <div class="card-body p-0">
+                                        <h4 class="card-title text-5 font-weight-bold pb-1 mt-3 mb-2"><a class="text-color-dark text-decoration-none" href="routemaestrocasestudy.html">Expanding RouteMaestro's Market Presence in India</a></h4>
+                                        <p class="card-text mb-2">How House of Rep helped a B2B travel platform achieve 37% user growth and 180% increase in brand awareness</p>
+                                        <a class="font-weight-bold text-uppercase text-2 text-decoration-none mt-2 mb-4" href="routemaestrocasestudy.html">Read Now <i class="fas fa-angle-right p-relative top-1 ms-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <article class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="150">
+                            <div class="card border-0 border-radius-0 box-shadow-1">
+                                <div class="card-body p-3 z-index-1">
+                                    <a href="demo-hotel-book.html">
+                                        <img class="card-img-top border-radius-0 mb-2" src="img/houseofrep/home/blogs/Compressed IMage.png" alt="Card Image">
+                                    </a>
+                                    <div class="card-body p-0">
+                                        <h4 class="card-title text-5 font-weight-bold pb-1 mt-3 mb-2"><a class="text-color-dark text-decoration-none" href="#">Revolutionizing Travel Experience in the Digital Age</a></h4>
+                                        <p class="card-text mb-2">How House of Rep Helped a B2C travel agency achieve significant growth in digital presence and customer engagement</p>
+                                        <a class="font-weight-bold text-uppercase text-2 text-decoration-none mt-2 mb-4" href="#">Read Now <i class="fas fa-angle-right p-relative top-1 ms-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    
+
+                </div>
+
+                <!-- <div class="text-center pt-2">
+                    <a href="demo-hotel-special-offers.html" class="btn btn-primary font-weight-bold text-uppercase px-5 py-3 mt-2 mb-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="500">View All</a>
+                </div> -->
+
+            </div>
+
+        </div>
+    </div>
+    </section>
