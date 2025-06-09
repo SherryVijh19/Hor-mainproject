@@ -91,6 +91,7 @@ a{
     background-color: #bc9423 !important;
     color: white;
     text-decoration: none;
+    cursor: pointer;
     font-weight: bold;
     font-size: 16px;
     border-radius: 8px;
