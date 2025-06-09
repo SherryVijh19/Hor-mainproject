@@ -76,7 +76,7 @@ a{
     font-size: 3rem !important;
     margin-bottom: 20px !important;
     color: white !important;
-    line-height: 90px !important;
+    line-height: 75px !important;
 }
 
 .hor-hero p{
@@ -88,28 +88,39 @@ a{
 
 .hor-hero a.hor-btn{
     padding: 12px 30px;
-    background-color: #87670c !important;
+    background-color: #bc9423 !important;
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
     border-radius: 8px;
     transition: background 0.3s ease;
+    margin-right: 10px;
 }
 
 
 .hor-hero a.hor-btn:hover{
-    background-color: #689FB3 !important;
+    background-color: transparent !important;
+    color: #bc9423 !important;
+    border: 2px solid #bc9423 ;
 }
 
 
 
 .hor-hero a.hor-btn-secondary{
-    padding: 12px 30px;
+    /* padding: 12px 30px;
     background-color: transparent !important;
     color: white;
     text-decoration: none;
     border: 2px solid #87670c;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background 0.3s ease; */
+     padding: 12px 30px;
+    background-color: #bc9423 !important;
+    color: white;
+    text-decoration: none;
     font-weight: bold;
     font-size: 16px;
     border-radius: 8px;
@@ -118,7 +129,10 @@ a{
 
 
 .hor-hero a.hor-btn-secondary:hover{
-    color: #87670c !important;
+    /* color: #87670c !important; */
+     background-color: transparent !important;
+    color: #bc9423 !important;
+    border: 2px solid #bc9423 ;
 }
 
 
@@ -584,6 +598,31 @@ a{
 
   .custom-read-more-btn {
     align-self: center;
+     padding: 12px 30px;
+    background-color: #bc9423 !important;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+   
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    display: inline-block;
+  }
+
+  .custom-read-more-btn:hover {
+    background-color: transparent !important;
+    color:#bc9423 ;
+    border: 2px solid #bc9423;
+    text-decoration: none !important;
+  }
+
+   .custom-know-more-btn {
+    /* align-self: center;
     padding: 10px 20px;
     font-size: 0.95rem;
     background-color: #689FB3;
@@ -594,12 +633,22 @@ a{
     cursor: pointer;
     transition: background-color 0.3s ease;
     
-    display: inline-block;
+    display: inline-block; */
+     padding: 12px 30px;
+    background-color: #bc9423 !important;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    margin-right: 10px;
   }
 
-  .custom-read-more-btn:hover {
-    background-color: #87670c;
-    color: white;
+  .custom-know-more-btn:hover {
+    background-color: transparent !important;
+    color:#bc9423 ;
+    border: 2px solid #bc9423;
     text-decoration: none !important;
   }
 
@@ -675,20 +724,22 @@ a{
   }
 
   .cta-button {
-    background-color: #87670c; /* Light brown */
-    color: white; /* Matching container background color for text contrast */
-    border: none;
-    padding: 12px 24px;
-    font-size: 1rem;
-    font-weight: 500;
+    background-color: #bc9423; 
+    color: white; 
+     padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
     border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background 0.3s ease;
+    
     margin-bottom: 30px;
   }
 
   .cta-button:hover {
-    background-color: #a88958;
+    background-color: transparent !important;
+    color: #bc9423;
+    border: 2px solid #bc9423;
   }
 
   .cta-subtext {
@@ -722,7 +773,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 40px;
+    gap: 50px;
     max-width: 1200px;
     margin: 0 auto;
   }
