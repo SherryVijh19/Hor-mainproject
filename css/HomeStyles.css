@@ -28,7 +28,6 @@ a{
 
 }
 
-
 .nav-pills .nav-link{
     color: white !important;
     background-color: #163F4E !important;
@@ -36,17 +35,21 @@ a{
 
 
 .nav-pills .nav-link.active{
-    color: #AA8419 !important;
+    /* color: #AA8419 !important;
     background-color: #AA8419 !important;
-    text-decoration-color: #AA8419 !important;
+    text-decoration-color: #AA8419 !important; */
+   
+    color:  #ecba30  !important;
+    background-color:  #ecba30  !important;
+    text-decoration-color:  #ecba30  !important;
 }
 
 .nav-pills .nav-link:hover,
 .nav-pills .nav-link:focus {
-  color: #AA8419 !important;
-  background-color: #AA8419 !important;
-  text-decoration-color: #AA8419 !important;
-  border-color: #AA8419 !important;
+  color:  #ecba30  !important;
+  background-color:  #ecba30 !important;
+  text-decoration-color:  #ecba30  !important;
+  border-color:  #ecba30  !important;
 }
 
 
@@ -76,7 +79,7 @@ a{
     font-size: 3rem !important;
     margin-bottom: 20px !important;
     color: white !important;
-    line-height: 75px !important;
+    line-height: 60px !important;
 }
 
 .hor-hero p{
@@ -165,12 +168,19 @@ a{
     margin: 0 auto;
   }
 
-  .section-2-hbo h3 {
+  /* .section-2-hbo h3 {
     
     font-size: 30px;
     margin-bottom: 10px;
     text-align: center;
     line-height: 1.2;
+  } */
+
+  .section-2-hbo-heading {
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 10px;
+    font-size: 48px;
   }
 
   .divider-small {
@@ -248,6 +258,7 @@ a{
   
   .flip-card-back {
     background-color: #8b7153;
+   /* background-color:  #b45a67; */
     color: white;
     padding: 10px;
     transform: rotateY(180deg); /* flips the back content */
@@ -364,7 +375,7 @@ a{
 
   
   .tabBox-tab.active {
-    color: #AA8419;
+    color: #ecba30 ;
   }
   
   .tabBox-content-wrapper {

@@ -29,17 +29,17 @@ a{
 
 
 .nav-pills .nav-link.active{
-    color: #AA8419 !important;
-    background-color: #AA8419 !important;
-    text-decoration-color: #AA8419 !important;
+    color: #d6a61d !important;
+    background-color: #d6a61d !important;
+    text-decoration-color: #d6a61d !important;
 }
 
 .nav-pills .nav-link:hover,
 .nav-pills .nav-link:focus {
-  color: #AA8419 !important;
-  background-color: #AA8419 !important;
-  text-decoration-color: #AA8419 !important;
-  border-color: #AA8419 !important;
+  color: #d6a61d !important;
+  background-color: #d6a61d !important;
+  text-decoration-color: #d6a61d !important;
+  border-color: #d6a61d !important;
 }
 
 
@@ -71,14 +71,14 @@ a{
 
   .hero-badge-label {
     display: inline-block;
-    background-color: #e6dace;
-    color: #AA8419;
+    background-color: #d6a61d;
+    color: #fff;
     padding: 6px 12px;
-    font-size: 0.85rem;
-    font-weight: 600;
     border-radius: 20px;
-    margin-bottom: 1rem;
-    opacity: 0.7;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 20px;
+    /* opacity: 0.7; */
   }
 
   .hero-title {
@@ -288,11 +288,11 @@ a{
   }
 
   .barrier-tag {
-    background-color: #BD966F;
-    color: #163F4E;
+    background-color: #163F4E;
+    color: white;
     padding: 6px 12px;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     margin-bottom: 20px;
   }
@@ -429,13 +429,12 @@ a{
   
   .growth-strategy-tag {
     display: inline-block;
-    background-color: #BD966F;
-    color: #374151;
-    font-size: 12px;
-    padding: 4px 10px;
-    border-radius: 9999px;
-    font-weight: 500;
-    margin-bottom: 16px;
+    background-color:#374151 ;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
   }
   
   .growth-strategy-heading {
@@ -517,13 +516,13 @@ a{
   }
 
   .kr-header {
-    font-size: 14px;
-    font-weight: bold;
-    color: #163F4E;
-    background: #BD966F;
-    display: inline-block;
+  
+    color: white ;
+    background: #163F4E;
     padding: 6px 12px;
-    border-radius: 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    display: inline-block;
     margin-bottom: 20px;
   }
 

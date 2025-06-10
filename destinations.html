@@ -1,0 +1,197 @@
+<!-- services/industries/destinations.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destinations Industry | House of Rep</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #fafafa;
+      }
+      .hero-section {
+        background: linear-gradient(120deg, #163f4e, #3c6e71);
+        padding: 90px 20px;
+        color: white;
+        text-align: left;
+        animation: slideIn 1.8s ease;
+      }
+      .hero-section h1 {
+        font-size: 2.5rem;
+        margin: 0 0 10px;
+      }
+      .hero-section p {
+        font-size: 1.2rem;
+        max-width: 600px;
+      }
+      .hero-section .cta-button {
+        margin-top: 20px;
+      }
+
+      .cta-button {
+        background: #49a078;
+        color: white;
+        padding: 12px 26px;
+        border: none;
+        border-radius: 25px;
+        font-size: 1rem;
+        text-decoration: none;
+        transition: background 0.3s, transform 0.3s;
+        display: inline-block;
+      }
+      .cta-button:hover {
+        background: #3c6e71;
+        transform: scale(1.05);
+      }
+
+      section {
+        padding: 60px 20px;
+      }
+      h2 {
+        color: #163f4e;
+        font-size: 2rem;
+        text-align: center;
+        position: relative;
+        margin-bottom: 40px;
+      }
+      h2::after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 60px;
+        background: #49a078;
+        margin: 10px auto 0;
+        border-radius: 2px;
+      }
+
+      .flex-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-around;
+      }
+      .feature-box {
+        flex: 1 1 300px;
+        background: white;
+        border-radius: 16px;
+        padding: 20px;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease-in-out;
+        text-align: left;
+      }
+      .feature-box:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+      }
+      .feature-box h3 {
+        color: #3c6e71;
+        margin-bottom: 10px;
+      }
+      .feature-box p {
+        font-size: 1rem;
+      }
+
+      .impact-section {
+        background: #f4f1de;
+        text-align: center;
+        padding: 60px 20px;
+      }
+      .impact-section .impact-card {
+        background: #fff;
+        display: inline-block;
+        margin: 20px;
+        padding: 30px 20px;
+        border-radius: 12px;
+        max-width: 280px;
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+      .impact-card:hover {
+        transform: scale(1.05);
+      }
+      .impact-card h4 {
+        color: #49a078;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+
+      .cta-footer {
+        background: #163f4e;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+      }
+      .cta-footer h2 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+      }
+
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateX(-30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero-section">
+      <h1>Destination Representation</h1>
+      <p>
+        We help luxury destinations shine by shaping their identity, engaging the trade, and converting visibility into
+        value.
+      </p>
+      <a href="/contact.html" class="cta-button">See How We Can Help</a>
+    </header>
+
+    <section class="intro">
+      <h2>Our Destination Approach</h2>
+      <div class="flex-wrap">
+        <div class="feature-box">
+          <h3>Narrative Crafting</h3>
+          <p>
+            We build compelling, culturally-rooted brand stories that connect destinations with Indian travelers and
+            agents.
+          </p>
+        </div>
+        <div class="feature-box">
+          <h3>Strategic B2B Outreach</h3>
+          <p>Engagement with top agencies and operators through curated roadshows, webinars, and fam trips.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Market Positioning</h3>
+          <p>We position destinations as high-value aspirational brands through media and event alignment.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact-section">
+      <h2>Proven Results</h2>
+      <div class="impact-card">
+        <h4>40% Increase</h4>
+        <p>B2B Leads in Under 6 Months</p>
+      </div>
+      <div class="impact-card">
+        <h4>3x Visibility</h4>
+        <p>Across Trade Events and Networks</p>
+      </div>
+      <div class="impact-card">
+        <h4>200+ Agents</h4>
+        <p>Engaged via Targeted Campaigns</p>
+      </div>
+    </section>
+
+    <footer class="cta-footer">
+      <h2>Let’s Elevate Your Destination</h2>
+      <a href="/contact.html" class="cta-button">Start Now</a>
+    </footer>
+  </body>
+</html>
