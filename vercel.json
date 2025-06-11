@@ -12,7 +12,9 @@
     { "source": "/sales-representation", "destination": "sales-representation.html" },
     { "source": "/event-management", "destination": "/event-management.html" },
     { "source": "/digital-marketing-campaigns", "destination": "/digital-marketing-campaigns.html" },
-    { "source": "/e-learnings-and-webinars", "destination": "/e-learnings-and-webinars.html" }
+    { "source": "/e-learnings-and-webinars", "destination": "/e-learnings-and-webinars.html" },
+    { "source": "/destinations", "destination": "/destinations.html" }
+
     
   ]
 }
