@@ -1,122 +1,76 @@
-<!-- services/sales-representation.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sticky-header-reveal">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sales Representation | House of Rep</title>
-    <link rel="stylesheet" href="../styles.css" />
-    <style>
-      body {
-        font-family: "Segoe UI", sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      .hero-section {
-        background-size: cover;
-        padding: 100px 20px;
-        color: white;
-        text-align: center;
-        animation: fadeIn 2s ease-in-out;
-      }
-      .cta-button {
-        background: linear-gradient(to right, #49a078, #3c6e71);
-        color: white;
-        padding: 14px 28px;
-        text-decoration: none;
-        border-radius: 30px;
-        display: inline-block;
-        margin-top: 25px;
-        font-weight: 600;
-        transition: transform 0.3s ease;
-      }
-      .cta-button:hover {
-        transform: scale(1.05);
-      }
-      section {
-        padding: 60px 20px;
-      }
-      h2 {
-        color: #163f4e;
-        text-align: center;
-        margin-bottom: 30px;
-        font-size: 2rem;
-        position: relative;
-      }
-      h2::after {
-        content: "";
-        width: 60px;
-        height: 4px;
-        background: #49a078;
-        display: block;
-        margin: 10px auto 0;
-        border-radius: 2px;
-      }
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      li {
-        padding: 10px 0;
-        font-size: 1.1rem;
-        text-align: center;
-      }
-      .card-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 30px;
-        margin-top: 30px;
-      }
-      .card {
-        background: #fff;
-        border-radius: 16px;
-        padding: 24px;
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-      .card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-      }
-      .testimonial-logos {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 20px;
-        margin-top: 30px;
-      }
-      .testimonial-logos img {
-        filter: grayscale(100%);
-        transition: filter 0.3s ease;
-      }
-      .testimonial-logos img:hover {
-        filter: grayscale(0%);
-      }
-      .cta-footer {
-        background: #163f4e;
-        color: white;
-        text-align: center;
-        padding: 40px 20px;
-      }
-      .cta-footer h2 {
-        font-size: 1.8rem;
-        margin-bottom: 20px;
-      }
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-          transform: translateY(-20px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-    </style>
+    <title>Our Services | Strategic Travel Marketing Solutions</title>
+
+    <meta name="keywords" content="B2B travel services, DMC marketing India, destination brand strategy" />
+    <meta
+      name="description"
+      content="Explore our B2B travel services including brand positioning and market entry strategies."
+    />
+    <meta name="author" content="okler.net" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/houseofrep/Comman/Group 7 (2).png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no" />
+
+    <!-- Web Fonts  -->
+    <link
+      id="googleFonts"
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="vendor/animate/animate.compat.css" />
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css" />
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css" />
+    <link rel="stylesheet" href="vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme-elements.css" />
+    <link rel="stylesheet" href="css/theme-blog.css" />
+    <link rel="stylesheet" href="css/theme-shop.css" />
+
+    <!-- Revolution Slider CSS -->
+    <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" />
+    <link rel="stylesheet" href="vendor/rs-plugin/css/layers.css" />
+    <link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css" />
+
+    <!-- Demo CSS -->
+    <link rel="stylesheet" href="css/demos/demo-hotel.css" />
+
+    <!-- Skin CSS -->
+    <link id="skinCSS" rel="stylesheet" href="css/skins/skin-hotel.css" />
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <link rel="stylesheet" href="css/services.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Heebo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Head Libs -->
+    <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
   <body>
-    <div class="bg-wrapper">
+    <div class="body">
       <header
         id="header"
         class="header-effect-reveal"
@@ -143,13 +97,13 @@
                       <nav class="collapse">
                         <ul class="nav nav-pills" id="mainNav">
                           <li>
-                            <a class="nav-link font-weight-bold active" href="index" style="font-size: 14px"> Home </a>
+                            <a class="nav-link font-weight-bold" href="index" style="font-size: 14px"> Home </a>
                           </li>
                           <li>
                             <a class="nav-link font-weight-bold" href="about" style="font-size: 14px"> About Us </a>
                           </li>
                           <li>
-                            <a class="nav-link font-weight-bold" href="ourservices" style="font-size: 14px">
+                            <a class="nav-link font-weight-bold active" href="ourservices" style="font-size: 14px">
                               Our Services
                             </a>
                           </li>
@@ -158,71 +112,10 @@
                               Portfolio
                             </a>
                           </li>
-                          <!-- <li>
-														<a class="nav-link font-weight-bold" href="#">
-															Our Client
-														</a>
-													</li> -->
+
                           <li>
                             <a class="nav-link font-weight-bold" href="contact" style="font-size: 14px"> Contact Us </a>
                           </li>
-                          <!-- <li class="dropdown dropdown-full-color dropdown-primary dropdown-mega dropdown-mega-book-now" id="headerBookNow">
-														<a class="nav-link font-weight-bold dropdown-toggle pe-0" href="demo-hotel-book.html">
-															<span class="d-block px-lg-4 py-lg-2">Book Now <i class="fas fa-angle-down d-none d-lg-inline-block ms-2"></i></span>
-														</a>
-														<ul class="dropdown-menu">
-															<li>
-																<div class="dropdown-mega-content">
-																	<form id="bookFormHeader" action="demo-hotel-book.html" method="POST">
-																		<div class="row">
-																			<div class="form-group col">
-																				<div class="form-control-custom form-control-datepicker-custom">
-																					<input type="text" value="" class="form-control text-uppercase text-1 font-weight-semi-bold" data-msg-required="This field is required." placeholder="Arrival" name="bookNowArrivalHeader" id="bookNowArrivalHeader" autocomplete="off" required>
-																				</div>
-																			</div>
-																		</div>
-																		<div class="row">
-																			<div class="form-group col">
-																				<div class="form-control-custom form-control-datepicker-custom">
-																					<input type="text" value="" class="form-control text-uppercase text-1 font-weight-semi-bold" data-msg-required="This field is required." placeholder="Departure" name="bookNowDepartureHeader" id="bookNowDepartureHeader" autocomplete="off" required>
-																				</div>
-																			</div>
-																		</div>
-																		<div class="row">
-																			<div class="form-group col-lg-6">
-																				<div class="form-control-custom">
-																					<select class="form-select form-control text-uppercase text-1 font-weight-semi-bold" name="bookNowAdults" data-msg-required="This field is required." id="bookNowAdults" required>
-																						<option value="">Adults</option>
-																						<option value="1">1</option>
-																						<option value="2">2</option>
-																						<option value="3">3</option>
-																						<option value="4">4</option>
-																					</select>
-																				</div>
-																			</div>
-																			<div class="form-group col-lg-6">
-																				<div class="form-control-custom">
-																					<select class="form-select form-control text-uppercase text-1 font-weight-semi-bold" name="bookNowKids" data-msg-required="This field is required." id="bookNowKids" required>
-																						<option value="">Kids</option>
-																						<option value="1">0</option>
-																						<option value="1">1</option>
-																						<option value="2">2</option>
-																						<option value="3">3</option>
-																						<option value="4">4</option>
-																					</select>
-																				</div>
-																			</div>
-																		</div>
-																		<div class="row">
-																			<div class="form-group col mb-0 pt-1">
-																				<input type="submit" value="Check availability" class="btn btn-tertiary btn-lg w-100 mt-2 text-uppercase py-3 text-1 font-weight-semi-bold">
-																			</div>
-																		</div>
-																	</form>
-																</div>
-															</li>
-														</ul>
-													</li> -->
                         </ul>
                       </nav>
                     </div>
@@ -240,126 +133,242 @@
           </div>
         </div>
       </header>
+      <!-- Title -->
+      <div class="title-section">
+        <h1>Sales Representation</h1>
+        <p>At The House of Rep, we act as an extension of your sales team across India and the region.</p>
+      </div>
 
-      <!-- <div class="slider-container bg-transparent rev_slider_wrapper" style="height: 530px;">
-					<div id="revolutionSlider" class="slider rev_slider manual" data-version="5.4.8">
-						<ul>
-							<li data-transition="boxfade">
+      <!-- Intro Section -->
+      <div class="intro-card">
+        <div>
+          <h2>More Than Just Meetings</h2>
+          <p>
+            From one-on-one sales calls and roadshows to trade show representation and account nurturing, we ensure your
+            brand stays front-of-mind and top-of-shelf.
+          </p>
+        </div>
+        <img
+          src="https://source.unsplash.com/600x400/?sales,teamwork"
+          alt="Sales Team"
+          style="background-color: beige"
+          height="300px"
+          width="600px"
+        />
+      </div>
 
-								<img src="img/demos/hotel/slides/slide-hotel-1.jpg"  
-									  alt=""
-									  data-bgposition="center bottom"
-									  data-bgfit="cover"
-									  data-bgrepeat="no-repeat"
-									  data-bgparallax="10"
-									  class="rev-slidebg"
-									  data-no-retina>
-							</li>
-							<li data-transition="boxfade">
+      <!-- Cards Grid -->
+      <div class="cards-grid">
+        <div class="card">
+          <h3>1:1 Sales Calls</h3>
+          <p>Targeted conversations with top travel sellers to build real business interest.</p>
+        </div>
+        <div class="card">
+          <h3>Roadshows</h3>
+          <p>We take your brand to top metros and Tier-2 cities across India.</p>
+        </div>
+        <div class="card">
+          <h3>Trade Show Presence</h3>
+          <p>Full representation at India’s leading travel trade events and exhibitions.</p>
+        </div>
+        <div class="card">
+          <h3>Account Nurturing</h3>
+          <p>We maintain warm and active relationships with agents to promote conversions.</p>
+        </div>
+      </div>
+    </div>
 
-								<img src="img/demos/hotel/slides/slide-hotel-2.jpg"  
-									  alt=""
-									  data-bgposition="center bottom"
-									  data-bgfit="cover"
-									  data-bgrepeat="no-repeat"
-									  data-bgparallax="10"
-									  class="rev-slidebg"
-									  data-no-retina>
-							</li>
-						</ul>
-					</div>
-				</div> -->
-
-      <!-- Modal Form -->
-
-      <!-- Home Page Hero Section -->
-
-      <section class="hor-hero">
-        <div class="hor-hero-content">
-          <h1>
-            We don't just represent, <br />
-            We elevate.
-          </h1>
-          <p>Boutique representation for brands shaping the future of luxury travel.</p>
-          <div class="hor-hero-buttons">
-            <a class="hor-btn" id="openModalBtn">Start Your Journey</a>
-            <a
-              class="hor-btn-secondary"
-              href=""
-              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kanishkraj-ascentiamarketing/30min'}); return false;"
-              >Schedule a Call</a
-            >
+    <footer class="hof-footer">
+      <div class="hof-footer-container">
+        <div class="hof-footer-column">
+          <h3 class="hof-footer-logo">🏛 House of Rep</h3>
+          <p class="hof-footer-description">
+            Elevating international travel brands in the Indian market through strategic representation, events, and
+            digital campaigns.
+          </p>
+          <div class="hof-footer-socials">
+            <a href="https://www.linkedin.com/company/the-house-of-rep"
+              ><img src="https://img.icons8.com/ios-filled/20/ffffff/linkedin.png" alt="LinkedIn"
+            /></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/20/ffffff/twitter.png" alt="Twitter" /></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/20/ffffff/instagram-new.png" alt="Instagram" /></a>
           </div>
         </div>
-      </section>
-    </div>
 
-    <!-- My Modal Form -->
-    <div class="modal-overlay" id="modalOverlay">
-      <div class="mymodal">
-        <span class="close-button" id="closeModalBtn">&times;</span>
-        <div class="contact-form-z92">
-          <h3 style="color: #163f4e">SEND US A MESSAGE</h3>
-          <form id="contactForm">
-            <input type="text" name="fullname" placeholder="Enter Full Name" required />
-            <input type="email" name="email" placeholder="Email" required />
-            <input type="text" name="organization" placeholder="Organization Name" required />
-            <input type="text" name="designation" placeholder="Designation " required />
-            <textarea name="message" placeholder="Message" required></textarea>
-            <button type="submit" style="display: flex; justify-content: center; align-items: center; gap: 8px">
-              Send Message
-              <div id="loader" style="display: none">
-                <img src="https://i.gifer.com/ZZ5H.gif" alt="Loading..." width="25" />
-              </div>
-            </button>
-            <div id="statusMessage" style="margin-top: 10px"></div>
-          </form>
+        <div class="hof-footer-column">
+          <h4 class="hof-footer-heading">Our Services</h4>
+          <ul class="hof-footer-list">
+            <li><a href="sales-representation">Sales Representation</a></li>
+            <li><a href="event-management">Event Management</a></li>
+            <li><a href="digital-marketing-campaigns">Digital Campaigns</a></li>
+            <li><a href="e-learnings-and-webinars">E-Learning & Webinars</a></li>
+            <!-- <li><a href="#">Market Research</a></li> -->
+          </ul>
+        </div>
+        <div class="hof-footer-column">
+          <h4 class="hof-footer-heading">Industries</h4>
+          <ul class="hof-footer-list">
+            <li><a href="destinations">Destinations</a></li>
+            <li><a href="hotels">Hotels</a></li>
+            <li><a href="dmc">DMCs</a></li>
+            <li><a href="experiences">Experiences</a></li>
+            <!-- <li><a href="#">Market Research</a></li> -->
+          </ul>
+        </div>
+
+        <div class="hof-footer-column">
+          <h4 class="hof-footer-heading">Resources</h4>
+          <ul class="hof-footer-list">
+            <li><a href="#">Case Studies</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="contact">FAQ</a></li>
+            <li><a href="contact">Contact Us</a></li>
+            <!-- <li><a href="#">Travel Trends</a></li> -->
+          </ul>
+        </div>
+
+        <div class="hof-footer-column">
+          <h4 class="hof-footer-heading">Contact Us</h4>
+          <ul class="hof-footer-contact">
+            <li>📍SCO. 56, Opp. Keys Hotel, SBS Nagar, Ludhiana, Punjab.</li>
+            <li>📞 +91 8427608699</li>
+            <li>✉️ contact@houseofrep.com</li>
+          </ul>
         </div>
       </div>
-    </div>
-    <header class="hero-section" style="background: url('../images/sales-hero.jpg') center/cover no-repeat">
-      <h1 style="font-size: 2.8rem; margin-bottom: 10px">Sales Representation</h1>
-      <p style="font-size: 1.2rem">Build stronger trade relationships across India and beyond.</p>
-      <a href="/contact.html" class="cta-button">Schedule a Call</a>
-    </header>
 
-    <section class="offerings" style="background: #f4f1de">
-      <h2>What We Offer</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>1-on-1 Sales Calls</h3>
-          <p>Direct, personalized outreach to top travel designers and agents.</p>
-        </div>
-        <div class="card">
-          <h3>Roadshows & Events</h3>
-          <p>We represent you at key trade events to maximize visibility.</p>
-        </div>
-        <div class="card">
-          <h3>Agency Mapping</h3>
-          <p>Strategic engagement with the most relevant B2B travel players.</p>
-        </div>
-        <div class="card">
-          <h3>Performance Reporting</h3>
-          <p>Monthly insights, feedback, and progress reports to keep you in the loop.</p>
+      <div class="hof-footer-bottom">
+        <p class="hof-footer-copy">© 2025 House of Rep. All rights reserved.</p>
+        <div class="hof-footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
         </div>
       </div>
-    </section>
-
-    <section class="why-it-works">
-      <h2>Why This Service Works</h2>
-      <p style="text-align: center; max-width: 750px; margin: 0 auto; font-size: 1.1rem">
-        We have deep-rooted connections with over 20,000 travel agents across India. Your brand gets positioned directly
-        in front of top-tier designers, operators, and agencies. Our storytelling approach ensures long-term recall.
-      </p>
-      <div class="testimonial-logos">
-        <img src="../images/logo1.png" alt="Logo 1" style="width: 120px" />
-        <img src="../images/logo2.png" alt="Logo 2" style="width: 120px" />
-      </div>
-    </section>
-
-    <footer class="cta-footer">
-      <h2>Ready to Start?</h2>
-      <a href="/contact.html" class="cta-button">Let’s Talk</a>
     </footer>
+
+    <!-- Vendor -->
+    <script src="vendor/plugins/js/plugins.min.js"></script>
+    <script src="vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+
+    <!-- Theme Base, Components and Settings -->
+    <script src="js/theme.js"></script>
+
+    <!-- Revolution Slider Scripts -->
+    <script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- Current Page Vendor and Views -->
+    <script src="js/views/view.contact.js"></script>
+
+    <!-- Demo -->
+    <script src="js/demos/demo-hotel.js"></script>
+
+    <!-- Theme Custom -->
+    <script src="js/custom.js"></script>
+
+    <!-- Theme Initialization Files -->
+    <script src="js/theme.init.js"></script>
+
+    <script src="js/homehor.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script>
+      function initializeGoogleMaps() {
+        // Map Markers
+        var mapMarkers = [
+          {
+            address: "New York, NY 10017",
+            icon: {
+              image: "img/pin.png",
+              iconsize: [26, 46],
+              iconanchor: [12, 46],
+            },
+          },
+        ];
+
+        // Map Initial Location
+        var initLatitude = 40.75198;
+        var initLongitude = -73.96978;
+
+        $("#googleMapsMacro").gMap({
+          controls: {
+            draggable: $.browser.mobile ? false : true,
+            panControl: true,
+            zoomControl: true,
+            mapTypeControl: true,
+            scaleControl: true,
+            streetViewControl: true,
+            overviewMapControl: true,
+          },
+          scrollwheel: false,
+          markers: mapMarkers,
+          latitude: initLatitude,
+          longitude: initLongitude,
+          zoom: 16,
+        });
+
+        $("#googleMapsMicro").gMap({
+          controls: {
+            draggable: true,
+            zoomControl: true,
+            scaleControl: true,
+          },
+          scrollwheel: false,
+          markers: mapMarkers,
+          latitude: initLatitude,
+          longitude: initLongitude,
+          zoom: 13,
+        });
+
+        var mapRef = $("#googleMapsMacro, #googleMapsMicro").data("gMap.reference");
+
+        // Styles from https://snazzymaps.com/
+        var styles = [
+          { featureType: "water", elementType: "geometry", stylers: [{ color: "#e9e9e9" }, { lightness: 17 }] },
+          { featureType: "landscape", elementType: "geometry", stylers: [{ color: "#f5f5f5" }, { lightness: 20 }] },
+          {
+            featureType: "road.highway",
+            elementType: "geometry.fill",
+            stylers: [{ color: "#ffffff" }, { lightness: 17 }],
+          },
+          {
+            featureType: "road.highway",
+            elementType: "geometry.stroke",
+            stylers: [{ color: "#ffffff" }, { lightness: 29 }, { weight: 0.2 }],
+          },
+          { featureType: "road.arterial", elementType: "geometry", stylers: [{ color: "#ffffff" }, { lightness: 18 }] },
+          { featureType: "road.local", elementType: "geometry", stylers: [{ color: "#ffffff" }, { lightness: 16 }] },
+          { featureType: "poi", elementType: "geometry", stylers: [{ color: "#f5f5f5" }, { lightness: 21 }] },
+          { featureType: "poi.park", elementType: "geometry", stylers: [{ color: "#dedede" }, { lightness: 21 }] },
+          {
+            elementType: "labels.text.stroke",
+            stylers: [{ visibility: "on" }, { color: "#ffffff" }, { lightness: 16 }],
+          },
+          { elementType: "labels.text.fill", stylers: [{ saturation: 36 }, { color: "#333333" }, { lightness: 40 }] },
+          { elementType: "labels.icon", stylers: [{ visibility: "off" }] },
+          { featureType: "transit", elementType: "geometry", stylers: [{ color: "#f2f2f2" }, { lightness: 19 }] },
+          {
+            featureType: "administrative",
+            elementType: "geometry.fill",
+            stylers: [{ color: "#fefefe" }, { lightness: 20 }],
+          },
+          {
+            featureType: "administrative",
+            elementType: "geometry.stroke",
+            stylers: [{ color: "#fefefe" }, { lightness: 17 }, { weight: 1.2 }],
+          },
+        ];
+
+        var styledMap = new google.maps.StyledMapType(styles, {
+          name: "Styled Map",
+        });
+
+        mapRef.mapTypes.set("map_style", styledMap);
+        mapRef.setMapTypeId("map_style");
+      }
+
+      // Initialize Google Maps when element enter on browser view
+      theme.fn.intObs(".google-map", "initializeGoogleMaps()", {});
+    </script>
   </body>
 </html>

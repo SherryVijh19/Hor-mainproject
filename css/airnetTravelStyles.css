@@ -158,8 +158,7 @@ a{
   }
 
   .route-left-content {
-    flex: 1 1 60%;
-    
+    flex: 1 1 50%;
     padding: 2rem;
   }
 
@@ -242,7 +241,7 @@ a{
   }
 
   .route-right-image {
-    flex: 1 1 40%;
+    flex: 1 1 50%;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,0 +1,118 @@
+  .hof-footer {
+    background-color: #0b3c4c;
+    color: white;
+    padding: 40px 20px 20px 20px;
+  }
+  
+  .hof-footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hof-footer-column {
+    flex: 1 1 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* important: aligns everything to start */
+  }
+  
+  .hof-footer-logo {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #C7AC81;
+  }
+  
+  .hof-footer-description {
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .hof-footer-socials {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .hof-footer-socials a img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .hof-footer-heading {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #C7AC81;
+  }
+  
+  .hof-footer-list,
+  .hof-footer-contact {
+    list-style: none;
+    padding: 0; /* remove browser default padding */
+    margin: 0;  /* remove browser default margin */
+    width: 100%; /* make list full width under heading */
+  }
+  
+  .hof-footer-list li,
+  .hof-footer-contact li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .hof-footer-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .hof-footer-list li a:hover {
+    color: #f0a500;
+  }
+  
+  .hof-footer-bottom {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+  }
+  
+  .hof-footer-copy {
+    margin-bottom: 10px;
+  }
+  
+  .hof-footer-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hof-footer-links a:hover {
+    color: #f0a500;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hof-footer-container {
+      flex-direction: column;
+    }
+  
+    .hof-footer-bottom {
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+  
+    .hof-footer-links {
+      margin-top: 10px;
+    }
+  }
