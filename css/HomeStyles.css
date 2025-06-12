@@ -39,17 +39,17 @@ a{
     background-color: #AA8419 !important;
     text-decoration-color: #AA8419 !important; */
    
-    color:  #ecba30  !important;
-    background-color:  #ecba30  !important;
-    text-decoration-color:  #ecba30  !important;
+    color:  #A26D32 !important;
+    background-color: #A26D32 !important;
+    text-decoration-color: #A26D32  !important;
 }
 
 .nav-pills .nav-link:hover,
 .nav-pills .nav-link:focus {
-  color:  #ecba30  !important;
-  background-color:  #ecba30 !important;
-  text-decoration-color:  #ecba30  !important;
-  border-color:  #ecba30  !important;
+  color: #A26D32  !important;
+  background-color: #A26D32 !important;
+  text-decoration-color: #A26D32  !important;
+  border-color: #A26D32 !important;
 }
 
 
@@ -91,7 +91,7 @@ a{
 
 .hor-hero a.hor-btn{
     padding: 12px 30px;
-    background-color: #bc9423 !important;
+    background-color: #7A5429 !important;
     color: white;
     text-decoration: none;
     cursor: pointer;
@@ -105,8 +105,8 @@ a{
 
 .hor-hero a.hor-btn:hover{
     background-color: transparent !important;
-    color: #bc9423 !important;
-    border: 2px solid #bc9423 ;
+    color: #7A5429 !important;
+    border: 2px solid #7A5429 ;
 }
 
 
@@ -122,7 +122,7 @@ a{
     border-radius: 8px;
     transition: background 0.3s ease; */
      padding: 12px 30px;
-    background-color: #bc9423 !important;
+    background-color:#7A5429 !important;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -135,8 +135,8 @@ a{
 .hor-hero a.hor-btn-secondary:hover{
     /* color: #87670c !important; */
      background-color: transparent !important;
-    color: #bc9423 !important;
-    border: 2px solid #bc9423 ;
+    color: #7A5429 !important;
+    border: 2px solid #7A5429 ;
 }
 
 
@@ -180,7 +180,8 @@ a{
     text-align: center;
     line-height: 60px;
     margin-bottom: 10px;
-    font-size: 48px;
+    font-size: 36px;
+    /* font-weight: 700; */
   }
 
   .divider-small {
@@ -324,7 +325,8 @@ a{
     text-align: center;
     color: #fff;
     margin-bottom: 10px;
-    font-size: 48px;
+    font-size: 36px;
+    /* font-weight: 700; */
   }
 
 
@@ -371,11 +373,12 @@ a{
     transition: background 0.3s;
     border-radius: 5px;
     font-size: 18px;
+    font-weight: 600;
   }
 
   
   .tabBox-tab.active {
-    color: #ecba30 ;
+    color: #A26D32 ;
   }
   
   .tabBox-content-wrapper {
@@ -482,6 +485,8 @@ a{
     padding: 10px 20px;
     background-color: transparent;
     color: #163F4E;
+        font-weight: 600;
+
     border: none;
     cursor: pointer;
     transition: background 0.3s;
@@ -491,7 +496,7 @@ a{
 
   
   .tabBox-tab-2.active {
-    color: #AA8419;
+    color: #A26D32;
   }
   
   .tabBox-content-wrapper-2 {
@@ -611,7 +616,7 @@ a{
   .custom-read-more-btn {
     align-self: center;
      padding: 12px 30px;
-    background-color: #bc9423 !important;
+    background-color: #7A5429 !important;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -628,8 +633,8 @@ a{
 
   .custom-read-more-btn:hover {
     background-color: transparent !important;
-    color:#bc9423 ;
-    border: 2px solid #bc9423;
+    color:#7A5429 ;
+    border: 2px solid #7A5429;
     text-decoration: none !important;
   }
 
@@ -647,7 +652,7 @@ a{
     
     display: inline-block; */
      padding: 12px 30px;
-    background-color: #bc9423 !important;
+    background-color: #7A5429 !important;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -659,8 +664,8 @@ a{
 
   .custom-know-more-btn:hover {
     background-color: transparent !important;
-    color:#bc9423 ;
-    border: 2px solid #bc9423;
+    color:#7A5429 ;
+    border: 2px solid #7A5429;
     text-decoration: none !important;
   }
 
@@ -736,7 +741,7 @@ a{
   }
 
   .cta-button {
-    background-color: #bc9423; 
+    background-color: #7A5429; 
     color: white; 
      padding: 12px 30px;
     text-decoration: none;
@@ -750,8 +755,8 @@ a{
 
   .cta-button:hover {
     background-color: transparent !important;
-    color: #bc9423;
-    border: 2px solid #bc9423;
+    color: #7A5429;
+    border: 2px solid #7A5429;
   }
 
   .cta-subtext {
@@ -849,7 +854,7 @@ a{
   }
   
   .hof-footer-list li a:hover {
-    color: #f0a500;
+    color: #A26D32;
   }
   
   .hof-footer-bottom {
@@ -874,7 +879,7 @@ a{
   }
   
   .hof-footer-links a:hover {
-    color: #f0a500;
+    color: #A26D32;
   }
   
   /* Responsive */

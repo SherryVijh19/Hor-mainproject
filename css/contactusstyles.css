@@ -29,17 +29,17 @@ a{
 
 
 .nav-pills .nav-link.active{
-    color: #AA8419 !important;
-    background-color: #AA8419 !important;
-    text-decoration-color: #AA8419 !important;
+    color: #A26D32  !important;
+    background-color: #A26D32  !important;
+    text-decoration-color: #A26D32  !important;
 }
 
 .nav-pills .nav-link:hover,
 .nav-pills .nav-link:focus {
-  color: #AA8419 !important;
-  background-color: #AA8419 !important;
-  text-decoration-color: #AA8419 !important;
-  border-color: #AA8419 !important;
+  color:#A26D32  !important;
+  background-color:  #A26D32 !important;
+  text-decoration-color: #A26D32  !important;
+  border-color: #A26D32  !important;
 }
 
 
@@ -62,6 +62,7 @@ a{
     font-size: 36px;
     color: white;
     margin-bottom: 10px;
+    font-weight: 700;
   }
 
   .contact-heading-z92 p {
@@ -106,7 +107,7 @@ a{
 
   .contact-form-z92 {
     flex: 1 1 45%;
-    background-color: #8b7153;
+    background-color: #7A5429;
     padding: 30px 20px;
     border-radius: 20px;
     max-width: 400px;
@@ -185,6 +186,7 @@ a{
     text-align: center;
     margin-bottom: 2rem;
     font-size: 36px;
+    font-weight: 700;
   }
   
   .faq-container .faq-item {
@@ -340,7 +342,7 @@ a{
   }
   
   .hof-footer-list li a:hover {
-    color: #f0a500;
+    color: #A26D32 ;
   }
   
   .hof-footer-bottom {
@@ -365,7 +367,7 @@ a{
   }
   
   .hof-footer-links a:hover {
-    color: #f0a500;
+    color: #A26D32 ;
   }
   
   /* Responsive */
