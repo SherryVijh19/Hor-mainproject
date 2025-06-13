@@ -48,7 +48,7 @@ a{
 .hero-section-wrapper {
     position: relative;
     background: url('../img/houseofrep/home/blogs/Frame\ 1618871211\ \(1\).jpg') no-repeat center center/cover;
-    min-height: 60vh;
+    min-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -503,10 +503,6 @@ a{
     margin-top: auto;
   }
   
-
-
-
-
   .kr-container {
     max-width: 1200px;
     margin: auto;

@@ -54,7 +54,7 @@ a{
 
 
 .hor-hero{
-    height: 60vh !important;
+    height: 400px !important;
     /* background-color: #163F4E !important; */
      /* background-image: url('../img/houseofrep/home/Home\ background\ image\ \(1\).png') !important; Replace with your actual image path */
     /* background-size: cover !important; Ensures the image covers the entire area */
@@ -147,7 +147,7 @@ a{
         gap: 20px !important;
     }
     .hor-hero{
-        height: 80vh !important;
+        height: 400px !important;
     }
     .hor-hero h1{
         line-height: 50px !important;
@@ -311,7 +311,7 @@ a{
 
   .tabSection-wrapper {
     width: 100%;
-    min-height: 70vh;
+    min-height: 400px;
     background-color: #163F4E; /* <-- Change this to any bg color */
     display: flex;
     flex-direction: column;

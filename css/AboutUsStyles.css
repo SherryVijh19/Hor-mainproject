@@ -44,7 +44,7 @@ a{
 
 
 .hor-hero{
-    height: 60vh !important;
+    height: 400px !important;
     background: url("../img/houseofrep/about/About\ Us\ Header\ \(1\).jpg") no-repeat center/cover;
     display: flex !important;
     align-items: center !important;
