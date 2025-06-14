@@ -311,7 +311,7 @@ a{
 
   .tabSection-wrapper {
     width: 100%;
-    min-height: 400px;
+    max-height: 590px;
     background-color: #163F4E; /* <-- Change this to any bg color */
     display: flex;
     flex-direction: column;
