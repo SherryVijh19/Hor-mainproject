@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    
     { "source": "/index", "destination": "/index.html" },
     { "source": "/about", "destination": "/about.html" },
     { "source": "/contact", "destination": "/contact.html" },
@@ -13,8 +12,9 @@
     { "source": "/event-management", "destination": "/event-management.html" },
     { "source": "/digital-marketing-campaigns", "destination": "/digital-marketing-campaigns.html" },
     { "source": "/e-learnings-and-webinars", "destination": "/e-learnings-and-webinars.html" },
-    { "source": "/destinations", "destination": "/destinations.html" }
-
-    
+    { "source": "/destinations", "destination": "/destinations.html" },
+    { "source": "/experiences", "destination": "/experiences.html" },
+    { "source": "/dmc", "destination": "/dmc.html" },
+    { "source": "/hotels", "destination": "/hotels.html" }
   ]
 }
