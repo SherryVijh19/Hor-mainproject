@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Heebo', sans-serif;
   }
 
@@ -519,181 +519,44 @@ a{
   }
 }
 
-/* Cards Grid */
-.cards-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 25px;
+
+.why-choose-us-section {
+  background-color: #f9f9e7; /* light yellow */
+  text-align: center;
+  padding: 60px 20px;
 }
 
-@media (min-width: 600px) {
-  .cards-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
 }
 
-@media (min-width: 992px) {
-  .cards-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-/* Cards */
-
-.card-section{
+.card-row {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-  background-color: beige;
+  gap: 30px;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 30px 20px;
+  background: white;
+  width: 300px;
+  padding: 25px 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  text-align: center;
-  transition: 0.3s ease;
-  position: relative;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
 }
 
-.card h3 {
-  font-size: 18px;
-  color: #2c3e50;
-  margin: 16px 0 10px;
+/* Responsive: Stack on small screens */
+@media screen and (max-width: 960px) {
+  .card-row {
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
-.card p {
-  font-size: 15px;
-  color: #666;
-  line-height: 1.5;
-}
-
-/* Optional icon or emoji circle */
-.icon-circle {
-  width: 50px;
-  height: 50px;
-  margin: 0 auto;
-  background-color: #e0e7ff;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  color: #2c3e50;
-}
-
-/* CSS Styling */
-      .promotion-section {
-        background: #fff;
-        padding: 45px 20px;
-        font-family: "Segoe UI", sans-serif;
-        color: #2c3e50;
-      }
-
-      .promotion-container {
-        max-width: 1100px;
-        margin: 0 auto;
-      }
-
-      .section-promotion-title {
-        text-align: center;
-        font-size: 2.5rem;
-        margin-bottom: 50px;
-        color: #2c3e50;
-      }
-
-      .promotion-features {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-      }
-
-      .feature-item {
-        display: flex;
-        align-items: flex-start;
-        gap: 15px;
-        background-color: #ffffff;
-        padding: 20px 25px;
-        border-radius: 12px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
-        transition: transform 0.3s ease;
-      }
-
-      .feature-item:hover {
-        transform: translateY(-5px);
-      }
-
-      .icon {
-        font-size: 2rem;
-        color:#2c3e50;
-      }
-
-      .feature-item h3 {
-        margin: 0 0 5px;
-        font-size: 1.2rem;
-        color: #2c3e50;
-      }
-
-      .feature-item p {
-        margin: 0;
-        font-size: 1rem;
-        color: #555;
-      }
-
-      /* .cta-block {
-        text-align: center;
-        margin-top: 60px;
-      }
-
-      .cta-block h4 {
-        font-size: 1.8rem;
-        margin-bottom: 15px;
-        color: #1a237e;
-      }
-
-      .cta-block p {
-        font-size: 1.1rem;
-        max-width: 700px;
-        margin: 0 auto 25px;
-        color: #444;
-      }
-
-      .cta-btn {
-        display: inline-block;
-        padding: 12px 30px;
-        background-color: #1a237e;
-        color: #fff;
-        border-radius: 30px;
-        text-decoration: none;
-        font-weight: 500;
-        transition: background-color 0.3s ease;
-      }
-
-      .cta-btn:hover {
-        background-color: #3949ab;
-      } */
-
-      /* Responsive */
-      @media (max-width: 768px) {
-        .promotion-features {
-          grid-template-columns: 1fr;
-        }
-
-        .feature-item {
-          flex-direction: row;
-        }
-
-        .icon {
-          font-size: 1.8rem;
-        }
-      }
-    
-    
