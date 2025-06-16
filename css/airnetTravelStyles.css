@@ -259,6 +259,7 @@ a{
 
     .route-left-content, .route-right-image {
       flex: 1 1 100%;
+      text-align: center;
     }
 
     .route-left-content {
@@ -272,9 +273,29 @@ a{
     .route-card {
       flex: 1 1 100%;
     }
+
   }
 
+  @media (max-width: 1064px) {
 
+      .testimonial-box-wrap{
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+      margin-top: 0px !important;
+    }
+
+    .testimonial-section-header{
+      padding-top:30px !important;
+    }
+
+    .testimonial-text-area{
+      padding-top: 0px !important;
+      margin-top: 0px !important;
+    }
+
+  }
 
 
   .barrier-section {
@@ -414,6 +435,14 @@ a{
     .barrier-cards {
       flex-direction: column;
     }
+  }
+
+   @media (max-width: 1064px) {
+
+    .barrier-tag{
+        margin-bottom: 20px;    
+    }
+  
   }
 
 
@@ -559,6 +588,43 @@ a{
     color: #163F4E;
   }
 
+  @media (max-width: 768px) {
+  .growth-strategy-grid,
+  .kr-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .growth-strategy-section,
+  .kr-container {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .growth-strategy-heading,
+  .kr-header {
+    font-size: 1.5rem;
+  }
+
+  .growth-strategy-card,
+  .kr-card {
+    padding: 1rem;
+  }
+
+  .growth-strategy-icon {
+    margin: 0 auto 1rem;
+  }
+}
+
+/* Tablet (2 columns) */
+@media (min-width:769px) and (max-width: 1024px) {
+  .growth-strategy-grid,
+  .kr-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
 
   .testimonial-box-wrap {
     max-width: 1200px;
@@ -652,6 +718,12 @@ a{
   }
 
 
+  @media (max-width: 1064px) {
+ .testimonial-flex-container {
+    padding-bottom: 30px;
+ }
+
+  }
 
 
 
@@ -676,7 +748,7 @@ a{
 
   .cta-heading {
     font-size: 1.5rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-bottom: 30px;
   }
 
@@ -838,3 +910,29 @@ a{
       margin-top: 10px;
     }
   }
+
+        /* Tablet: 2 columns */
+@media (max-width: 1024px) {
+  .hof-footer-column {
+    flex: 1 1 45%;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-left: 0 !important;
+  }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 767px) {
+  .hof-footer-container {
+    flex-direction: column;
+  }
+
+  .hof-footer-column {
+    flex: 1 1 100%;
+    margin-left: 0 !important; /* remove inline left margins */
+  }
+
+  .hof-footer-socials {
+    margin-bottom: 20px;
+  }
+}

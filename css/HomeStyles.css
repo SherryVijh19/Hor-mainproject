@@ -309,9 +309,28 @@ a{
     height: auto;
   }
 
+   /* Tablet: 2-column layout */
+  @media (min-width: 769px) and (max-width: 900px) {
+    .card-container-hor {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      padding-left: 50px;
+      padding-right: 70px;
+    }
+  }
+
+  @media(max-width:768px){ 
+  .card-container-hor {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
   .tabSection-wrapper {
     width: 100%;
-    max-height: 610px;
+    max-height: 1180px;
     background-color: #163F4E; /* <-- Change this to any bg color */
     display: flex;
     flex-direction: column;
@@ -736,7 +755,6 @@ a{
 
   .cta-heading {
     font-size: 1.5rem;
-    font-weight: bold;
     margin-bottom: 40px;
   }
 
@@ -882,24 +900,7 @@ a{
     color: #A26D32;
   }
   
-  /* Responsive */
-  @media (max-width: 768px) {
-    .hof-footer-container {
-      flex-direction: column;
-    }
-  
-    .hof-footer-bottom {
-      flex-direction: column;
-      gap: 10px;
-      text-align: center;
-    }
-  
-    .hof-footer-links {
-      margin-top: 10px;
-    }
-  }
-
-
+ 
   /* Modal css */
 
   @keyframes modalFadeIn {
@@ -1034,3 +1035,29 @@ a{
       }
   }
 
+
+      /* Tablet: 2 columns */
+@media (max-width: 1024px) {
+  .hof-footer-column {
+    flex: 1 1 45%;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-left: 0 !important;
+  }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 767px) {
+  .hof-footer-container {
+    flex-direction: column;
+  }
+
+  .hof-footer-column {
+    flex: 1 1 100%;
+    margin-left: 0 !important; /* remove inline left margins */
+  }
+
+  .hof-footer-socials {
+    margin-bottom: 20px;
+  }
+}

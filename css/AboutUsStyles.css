@@ -317,6 +317,13 @@ a{
     }
   }
 
+  .cta-wrapper{
+    max-width: 1200px; /* Adjust section width here */
+    margin: 0 auto;
+    /* padding: 40px 20px; */
+    
+  }
+
   .cta-container {
     background-color: #17424D; /* Dark teal */
     color: #ffffff;
@@ -328,7 +335,7 @@ a{
 
   .cta-heading {
     font-size: 1.5rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-bottom: 30px;
   }
 
@@ -650,4 +657,43 @@ a{
   font-size: 0.9rem;
   font-weight: 400;
   color: #555;
+}
+
+      /* footer-mobile and tablet responsive */
+    /* Tablet: 2 columns */
+@media (max-width: 1024px) {
+  .hof-footer-column {
+    flex: 1 1 45%;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-left: 0 !important;
+  }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 767px) {
+  .hof-footer-container {
+    flex-direction: column;
+  }
+
+  .hof-footer-column {
+    flex: 1 1 100%;
+    margin-left: 0 !important; /* remove inline left margins */
+  }
+
+  .hof-footer-socials {
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width:1064px){
+.whyrep-card{
+text-align: center !important;
+align-items: center !important;
+}
+
+.content p{
+  text-align: center !important;
+  padding-top: 20px !important;
+}
 }
