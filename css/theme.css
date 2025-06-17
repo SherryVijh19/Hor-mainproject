@@ -1650,7 +1650,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	#header .header-nav-main nav > ul > li.dropdown.open > .dropdown-menu, #header .header-nav-main nav > ul > li.dropdown.accessibility-open > .dropdown-menu, #header .header-nav-main nav > ul > li.dropdown:hover > .dropdown-menu {
-		top: auto;
+		top: 85px;
 		display: block;
 		opacity: 1;
 	}
