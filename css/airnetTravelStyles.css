@@ -528,7 +528,7 @@ a{
     border-top: 1px solid #a4a7ad;
     font-size: 13px;
     font-weight: 500;
-    color: #6b7280;
+    color: #8c6043;
     margin-top: auto;
   }
   
@@ -629,7 +629,7 @@ a{
   .testimonial-box-wrap {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 125px;
+    padding: 30px 125px;
     background-color: #f5f6f8;
     border-radius: 16px;
   }
