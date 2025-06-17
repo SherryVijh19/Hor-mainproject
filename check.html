@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form-modal {
+        display: flex;
+        width: 600px;
+        max-width: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: #bdb08f;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        font-family: "Segoe UI", sans-serif;
+      }
+
+      .caption-panel {
+        width: 40%;
+        background-image: url("your-image.jpg"); /* Replace with your actual image path */
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+      }
+
+      .caption-overlay {
+        background: rgba(18, 60, 74, 0.85); /* same as your brand color */
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+      }
+
+      .caption-overlay h1 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      .caption-overlay p {
+        font-size: 0.85rem;
+        font-weight: 300;
+      }
+
+      .form-panel {
+        width: 60%;
+        padding: 25px 20px;
+        background-color: #bdb08f;
+        position: relative;
+      }
+
+      .close-btn {
+        position: absolute;
+        top: 12px;
+        right: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .form-panel h3 {
+        text-align: center;
+        color: #123c4a;
+        margin-bottom: 20px;
+      }
+
+      .form-panel form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .form-panel input,
+      .form-panel textarea {
+        padding: 12px;
+        border: none;
+        border-radius: 25px;
+        background: #fff;
+        font-size: 0.95rem;
+        outline: none;
+      }
+
+      .form-panel textarea {
+        resize: vertical;
+        min-height: 80px;
+      }
+
+      .form-panel button {
+        padding: 12px;
+        border: none;
+        border-radius: 25px;
+        background-color: #123c4a;
+        color: white;
+        font-weight: bold;
+        font-size: 0.95rem;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+
+      .form-panel button:hover {
+        background-color: #0e2d3a;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-modal">
+      <div class="caption-panel">
+        <div class="caption-overlay">
+          <h1>Elevate. Represent. Inspire. Connect.</h1>
+          <p>Boutique luxury travel representation redefining success in the Indian market.</p>
+        </div>
+      </div>
+
+      <div class="form-panel">
+        <span class="close-btn">&times;</span>
+        <h3>SEND US A MESSAGE</h3>
+        <form>
+          <input type="text" placeholder="Enter Full Name" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Organization Name" />
+          <input type="text" placeholder="Designation" />
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
